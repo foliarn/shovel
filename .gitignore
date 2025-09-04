@@ -1,0 +1,18 @@
+# Environnement virtuel
+venv/
+
+# Fichiers sensibles
+.env
+
+# Cache Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
