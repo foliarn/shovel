@@ -1,0 +1,4 @@
+- récupérer une playlist et générer des reco à partir de ça (dans une playlist)
+- récupérer les sons likés (un certain style) et les afficher
+- système de like/dislike (ajout aux titres likés, amélioration des recommendations, DL) (LATE)
+- 
