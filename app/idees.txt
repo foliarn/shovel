@@ -1,4 +1,25 @@
 - récupérer une playlist et générer des reco à partir de ça (dans une playlist)
 - récupérer les sons likés (un certain style) et les afficher
 - système de like/dislike (ajout aux titres likés, amélioration des recommendations, DL) (LATE)
-- 
+- fil d'actualité fait maison (release, pas repost)
+
+WL2JjRIK4qMLv05fDaIed13XtrD9vJdQ client id api
+45827299 id foliarnmusic
+
+
+
+ANALYSE SPOTIFY : (https://www.sortspotify.app/)
+danceability : pas reliable car ne reflète pas du tout la perception humaine 
+               (danceability haute = son qui a du rythme tout le temps)
+energy : les nombres sont très souvent haut, pas hyper reliable : donne 0.822 à body talk oppidan remix (bcp trop)
+genre : HORRIBLE (met de la jungle partout, bassline partout alors que non, g-house ? PAS DE SPEED GARAGE)
+        -> à voir ? faire des filtres (house, bpm>=132; jungle, bpm<150, jsp) -> met bcp de genres mal placés, pas relevant du tout 
+popularity : très intéressant pour le coup, index de 0 à 100 sur la "cote" du son, classement forcément reliable
+valence (emotions - 0<n<1) : fonctionne ok mais pas à utiliser
+                          -> donne des résultats étranges (spice up my life à 0.5, what you need de don à 0.13)
+volume : à pousser ? se compte en LUFs je crois (trier les sons mal mixés ? attention aux sons chills qui se feront cut)
+release date : nickel
+"mode" (minor/major) et key : cool
+spoken content : à chier (ne fonctionne littéralement pas)
+"circle of 5ths" : what ? opti mix ?
+added-date ? pq pas pour la playlist " 
